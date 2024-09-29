@@ -1,9 +1,9 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Project1 } from "../../assets/SimpleWeatherApp.jpeg";
-import { Project2 } from "../../assets/SimpleToDoList.jpeg";
-import { Project3 } from "../../assets/RandomPasswordGenerator.jpeg";
-import { Project4 } from "../../assets/QrCodeGenerator.jpeg";
+import Project1 from "../../assets/SimpleWeatherApp.jpeg";
+import Project2 from "../../assets/SimpleToDoList.jpeg";
+import Project3 from "../../assets/RandomPasswordGenerator.jpeg";
+import Project4 from "../../assets/QrCodeGenerator.jpeg";
 
 const Card = ({ img, alt, title, desc, viewLink, githubLink, dur }) => {
   const handleViewClick = () => {
@@ -51,7 +51,7 @@ const Card = ({ img, alt, title, desc, viewLink, githubLink, dur }) => {
 const Project = () => {
   const projects = [
     {
-      img: {Project1},
+      img: { Project1 },
       alt: "Weather App",
       title: "Weather App",
       desc: "Simple Weather App Using Javascript and OpenWeather API.",
@@ -60,7 +60,7 @@ const Project = () => {
       dur: 0.5,
     },
     {
-      img: {Project2},
+      img: { Project2 },
       alt: "Simple To Do List App",
       title: "Simple To Do List",
       desc: "Simple To Do List App Using Javascript and LocalStorage.",
@@ -69,7 +69,7 @@ const Project = () => {
       dur: 1,
     },
     {
-      img: {Project3},
+      img: { Project3 },
       alt: "Random Password Generator",
       title: "Random Password Generator",
       desc: "Random Password Generator App Using Javascript.",
@@ -78,7 +78,7 @@ const Project = () => {
       dur: 1.5,
     },
     {
-      img: {Project4},
+      img: { Project4 },
       alt: "Qr Code Generator",
       title: "Qr Code Generator",
       desc: "Qr Code Generator App Using Javascript and QRCode API.",
