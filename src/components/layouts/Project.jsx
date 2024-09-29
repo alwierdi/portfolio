@@ -19,10 +19,10 @@ const Card = ({ img, alt, title, desc, viewLink, githubLink, dur }) => {
       whileInView={{ opacity: 1, y: 0 }}
       initial={{ opacity: 0, y: -100 }}
       transition={{ duration: dur }}
-      className="max-w-2xl rounded overflow-hidden shadow-lg group relative"
+      className="max-w-3xl rounded overflow-hidden shadow-lg group relative"
     >
       <img
-        className="w-full h-60 object-cover transition-transform duration-300 ease-in-out group-hover:filter group-hover:brightness-50 group-hover:scale-110"
+        className="w-full h-96 object-cover rounded-xl transition-transform duration-300 ease-in-out group-hover:filter group-hover:brightness-50 group-hover:scale-110"
         src={img}
         alt={alt}
       />
@@ -51,7 +51,7 @@ const Card = ({ img, alt, title, desc, viewLink, githubLink, dur }) => {
 const Project = () => {
   const projects = [
     {
-      img: { Project1 },
+      img: Project1,
       alt: "Weather App",
       title: "Weather App",
       desc: "Simple Weather App Using Javascript and OpenWeather API.",
@@ -60,7 +60,7 @@ const Project = () => {
       dur: 0.5,
     },
     {
-      img: { Project2 },
+      img: Project2,
       alt: "Simple To Do List App",
       title: "Simple To Do List",
       desc: "Simple To Do List App Using Javascript and LocalStorage.",
@@ -69,7 +69,7 @@ const Project = () => {
       dur: 1,
     },
     {
-      img: { Project3 },
+      img: Project3,
       alt: "Random Password Generator",
       title: "Random Password Generator",
       desc: "Random Password Generator App Using Javascript.",
@@ -78,7 +78,7 @@ const Project = () => {
       dur: 1.5,
     },
     {
-      img: { Project4 },
+      img: Project4,
       alt: "Qr Code Generator",
       title: "Qr Code Generator",
       desc: "Qr Code Generator App Using Javascript and QRCode API.",
@@ -100,7 +100,7 @@ const Project = () => {
           My Recently Project
         </motion.h1>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mb-24">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 mb-24">
         {projects.map((project, index) => (
           <Card
             key={index}
