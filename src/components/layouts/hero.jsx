@@ -2,6 +2,7 @@ import React from "react";
 import BlurFade from "@/components/magicui/blur-fade";
 import WordRotateDemo from "../ui/WordRotate";
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
+import profilePict from "../../assets/lowkey.jpg";
 
 const Hero = () => {
   return (
@@ -83,7 +84,7 @@ const Hero = () => {
             <div className="flex justify-center">
               <BlurFade delay={0.25 * 5} inView>
                 <img
-                  src="/src/assets/img/lowkey.jpg"
+                  src={profilePict}
                   alt="Alwi Erdi"
                   className="mt-6 w-screen object-cover h-80 lg:rounded-full lg:w-80"
                 />

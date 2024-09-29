@@ -47,7 +47,7 @@ const Card = ({ img, alt, title, desc, viewLink, githubLink, dur }) => {
 const Project = () => {
   const projects = [
     {
-      img: "/src/assets/img/SimpleWeatherApp.jpeg",
+      img: "/src/assets/SimpleWeatherApp.jpeg",
       alt: "Weather App",
       title: "Weather App",
       desc: "Simple Weather App Using Javascript and OpenWeather API.",
@@ -56,7 +56,7 @@ const Project = () => {
       dur: 0.5,
     },
     {
-      img: "/src/assets/img/SimpleToDoList.jpeg",
+      img: "/src/assets/SimpleToDoList.jpeg",
       alt: "Simple To Do List App",
       title: "Simple To Do List",
       desc: "Simple To Do List App Using Javascript and LocalStorage.",
@@ -65,7 +65,7 @@ const Project = () => {
       dur: 1,
     },
     {
-      img: "/src/assets/img/RandomPasswordGenerator.jpeg",
+      img: "/src/assets/RandomPasswordGenerator.jpeg",
       alt: "Random Password Generator",
       title: "Random Password Generator",
       desc: "Random Password Generator App Using Javascript.",
@@ -74,7 +74,7 @@ const Project = () => {
       dur: 1.5,
     },
     {
-      img: "/src/assets/img/QrCodeGenerator.jpeg",
+      img: "/src/assets/QrCodeGenerator.jpeg",
       alt: "Qr Code Generator",
       title: "Qr Code Generator",
       desc: "Qr Code Generator App Using Javascript and QRCode API.",

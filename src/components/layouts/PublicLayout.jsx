@@ -14,13 +14,13 @@ const PublicLayout = () => {
       <div className="container pt-10 mb-32 overflow-hidden">
         <Quote />
       </div>
-      <div className="container mx-auto px-8 py-5 mb-5 overflow-hidden">
+      <div className="container mx-auto px-8 py-5 mb-5">
         <TechStack />
       </div>
-      <div className="container mx-auto px-8 py-5 mb-5 overflow-hidden">
+      <div className="container mx-auto px-8 py-5 mb-5">
         <Project />
       </div>
-      <div className="container mx-auto px-8 py-5 mb-5 overflow-hidden">
+      <div className="container mx-auto px-8 py-5 mb-5">
         <Footer />
       </div>
     </div>

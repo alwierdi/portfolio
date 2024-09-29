@@ -1,5 +1,4 @@
 import React from "react";
-import Meteors from "../magicui/meteors";
 import TextRevealByWord from "../magicui/text-reveal";
 import BlurFade from "../magicui/blur-fade";
 
