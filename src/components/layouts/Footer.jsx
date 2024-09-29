@@ -74,7 +74,7 @@ const Footer = () => {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.5 }}
-          className="z-20fixed inset-0 w-auto flex items-center justify-center bg-black bg-opacity-75"
+          className="z-20 fixed inset-0 w-auto flex items-center justify-center bg-black bg-opacity-75"
         >
           <div className="bg-neutral-950 p-6 rounded-xl shadow-xl text-white max-w-lg mx-auto">
             <h2 className="text-xl font-bold mb-6">Contact</h2>
