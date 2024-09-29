@@ -11,7 +11,7 @@ const PublicLayout = () => {
       <div className="container mx-auto px-8 mb-5 pt-28 pb-7 lg:pt-36 xl:pt-60">
         <Hero />
       </div>
-      <div className="container pt-10 mb-32 overflow-hidden">
+      <div className="container pt-10 mb-32">
         <Quote />
       </div>
       <div className="container mx-auto px-8 py-5 mb-5">
