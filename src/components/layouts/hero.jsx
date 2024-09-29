@@ -3,6 +3,7 @@ import BlurFade from "@/components/magicui/blur-fade";
 import WordRotateDemo from "../ui/WordRotate";
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 import profilePict from "../../assets/lowkey.jpg";
+import CV from "../../assets/AlwiErdiMusthafa_CV.pdf";
 
 const Hero = () => {
   return (
@@ -35,7 +36,7 @@ const Hero = () => {
               <div className="container flex justify-center w-full my-5 px-0 lg:justify-start">
                 <BlurFade delay={0.25 * 4} inView>
                   <a
-                    href="/src/assets/AlwiErdiMusthafa_CV.pdf"
+                    href={CV}
                     className="mt-4 px-4 py-1 text-sm md:px-6 md:py-2 lg:text-lg border border-white inset-0 -z-10 h-full w-full bg-transparent bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px] text-white font-semibold rounded-xl transition ease-in-out hover:bg-[radial-gradient(#000000_1px,transparent_1px)] hover:bg-white hover:text-black"
                     rel="noopener noreferrer"
                     target="_blank"
