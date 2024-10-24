@@ -29,7 +29,7 @@ const Hero = () => {
               </BlurFade>
               <BlurFade delay={0.25 * 4} inView>
                 <WordRotateDemo
-                  words={["Frontend Developer", "UI/UX Designer"]}
+                  words={["Frontend Developer", "Backend Developer", "Fullstack Developer", "UI/UX Designer"]}
                   className="text-purple-700 font-bold text-3xl my-2 md:text-4xl"
                 />
               </BlurFade>
